@@ -1,26 +1,26 @@
 [
     {
-        "nombreProyecto": "Arquisoft",
+        "nombreProyecto": "Sistema de transporte TBC",
         "nombreLugar": "Curso: Arquitectura y diseno de Software",
-        "descripcion": "",
+        "descripcion": "El proyecto consistió en construir una aplicación web cuyo back-end corría sobre el framework Play! y el front-end habia sido desarrollado con Angular.js",
         "link":"https://github.com/ISIS2503-2015-02/Grupo-01"
     },
     {
-        "nombreProyecto": "Moviles",
-        "nombreLugar": "Curso: Construccion de aplicaciones moviles",
-        "descripcion": "",
+        "nombreProyecto": "Puuper - Paseos de perros",
+        "nombreLugar": "Curso: Construcción de aplicaciones móviles",
+        "descripcion": "El proyecto consiste en construir una aplicación nativa tanto para Android como para iOS, la aplicación le permite a los usuarios solicitar paseos a sus perros y luego hacer un seguimiento en tiempo real de dicho paseo.",
         "link":"https://gitlab.com/ISIS3510_201710_Pupper"
     },
     {
-        "nombreProyecto": "Tesis",
+        "nombreProyecto": "CollabIDE",
         "nombreLugar": "Proyecto de grado",
-        "descripcion": "",
+        "descripcion": "El proyecto consiste en desarrollar una aplicación web que permita el desarrollo colaborativo, el versionamiento automático y la selección de fragmentos que componen un producto de software para su eventual despliegue.",
         "link":"https://github.com/sbeltran10/InvestigacionTesis"
     },
     {
-        "nombreProyecto": "Asesoft",
+        "nombreProyecto": "Gestor Integral de Desarrollo Profesional",
         "nombreLugar": "Trabajo: Asesoftware S.A.S",
-        "descripcion": "",
+        "descripcion": "El proyecto consistía en desarrollar una aplicación empresarial con JavaEE, SQL Server y JSF la cual permitiera a los empleados de la empresa llevar un seguimiento de sus carreras profesionales, sus hojas de vida y las certificaciones que hubieran hecho a lo largo de su estancia en la empresa.",
         "link":""
     }
 ]

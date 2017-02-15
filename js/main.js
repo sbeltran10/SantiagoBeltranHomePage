@@ -2,13 +2,13 @@ var main = function () {
 
     //Asigna funciones a los botones principales
     $("#interes-prof").on("click", function () {
-        $("#shown-content").slideUp(400);
+        $("#content-hobbies").slideUp(400);
         $("#content-experiencia").slideUp(400);
         $("#content-intereses").slideToggle(400);
     });
 
     $("#experiencia-habilidades").on("click", function () {
-        $("#shown-content").slideUp(400);
+        $("#content-hobbies").slideUp(400);
         $("#content-intereses").slideUp(400);
         $("#content-experiencia").slideToggle(400);
     });
@@ -16,7 +16,7 @@ var main = function () {
     $("#hobbies").on("click", function () {
         $("#content-intereses").slideUp(400);
         $("#content-experiencia").slideUp(400);
-        $("#shown-content").slideToggle(400);
+        $("#content-hobbies").slideToggle(400);
     });
 
     //Se encarga de llenar el contenido de la sección de experiencia y habilidades
@@ -79,7 +79,7 @@ var main = function () {
                 var divNombreProy = $('<div class="row"><a href="' + proyectos[i].link + '"+ target="_blank">' + proyectos[i].nombreProyecto + '</a></div>');
                 divCol2.append(divNombreProy);
             }
-            else{
+            else {
                 var divNombreProy = $('<div class="row">' + proyectos[i].nombreProyecto + '</div>');
                 divCol2.append(divNombreProy);
             }
@@ -111,16 +111,15 @@ var main = function () {
             var spanIcon = $('<span class="glyphicon glyphicon-asterisk"></span>');
             divCol1.append(spanIcon);
 
-            var divCol2 = $('<div class="col-md-4 pull-left">'+habilidades[i].nombreHabilidad+'</div>');
+            var divCol2 = $('<div class="col-md-5 pull-left">' + habilidades[i].nombreHabilidad + '</div>');
             divItem.append(divCol2);
 
-            var divCol3 = $('<div class="col-md-3 pull-left">'+habilidades[i].nivelConocimiento+'</div>');
+            var divCol3 = $('<div class="col-md-3 pull-left">' + habilidades[i].nivelConocimiento + '</div>');
             divItem.append(divCol3);
 
-            var divCol4 = $('<div class="col-md-4 pull-left">' + habilidades[i].tiempo + '</div>');
+            var divCol4 = $('<div class="col-md-3 pull-left">' + habilidades[i].tiempo + '</div>');
             divItem.append(divCol4);
         }
-
     });
 
 };
