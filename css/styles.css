@@ -92,6 +92,8 @@ h6 {
 }
 .heading {
     width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 

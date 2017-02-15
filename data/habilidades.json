@@ -1,0 +1,27 @@
+[
+    {
+        "nombreHabilidad": "Desarrollo en Java",
+        "nivelConocimiento": "Avanzado",
+        "icono": "icons/"
+    },
+    {
+        "nombreHabilidad": "Desarrollo en Android",
+        "nivelConocimiento": "Intermedio",
+        "icono": "icons/"
+    },
+    {
+        "nombreHabilidad": "Desarrollo web (HTML, CSS, JavaScript)",
+        "nivelConocimiento": "Intermedio",
+        "icono": "icons/"
+    },
+    {
+        "nombreHabilidad": "Manejo base de datos (Oracle SQL, Microsoft SQL Server)",
+        "nivelConocimiento": "Intermedio",
+        "icono": "icons/"
+    },
+    {
+        "nombreHabilidad": "Desarrollo .NET",
+        "nivelConocimiento": "Basico",
+        "icono": "icons/"
+    }
+]
