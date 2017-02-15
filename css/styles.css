@@ -82,7 +82,7 @@ h6 {
 .bottom-line{
 	width: 3em;
 	height: .2em;
-	background-color: rgb(99, 122, 145);
+	background-color: #230173;
 }
 .fea{
 	margin-top: 25px;
@@ -92,12 +92,33 @@ h6 {
 }
 .heading {
     width: 80%;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 
-/* Fin intereses personales */
+/* Experiencia y habilidades */
+.seccion-exp-hab{
+    padding-bottom: 4em;
+}
+
+.pull-left{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.glyphicon-asterisk{
+    color:#230173;
+}
+
+.separator-seccion{
+	width: 100%;
+	height: .2em;
+	background-color: #230173;
+}
+
+.item-lista{
+    padding-top: 2em;
+    padding-bottom: 2em
+}
 
 footer {
     width: 100%;
@@ -106,6 +127,23 @@ footer {
     padding-top: 2%;
 }
 
+h4 {
+    color: #230173;
+}
+
+p {
+    color: #707070;
+}
+
+.p-justify {
+    color: #707070;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-center{
+    text-align: center
+}
 
 
 

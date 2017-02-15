@@ -1,0 +1,26 @@
+[
+    {
+        "nombreProyecto": "Arquisoft",
+        "nombreLugar": "Curso: Arquitectura y diseno de Software",
+        "descripcion": "",
+        "link":"https://github.com/ISIS2503-2015-02/Grupo-01"
+    },
+    {
+        "nombreProyecto": "Moviles",
+        "nombreLugar": "Curso: Construccion de aplicaciones moviles",
+        "descripcion": "",
+        "link":"https://gitlab.com/ISIS3510_201710_Pupper"
+    },
+    {
+        "nombreProyecto": "Tesis",
+        "nombreLugar": "Proyecto de grado",
+        "descripcion": "",
+        "link":"https://github.com/sbeltran10/InvestigacionTesis"
+    },
+    {
+        "nombreProyecto": "Asesoft",
+        "nombreLugar": "Trabajo: Asesoftware S.A.S",
+        "descripcion": "",
+        "link":""
+    }
+]

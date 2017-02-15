@@ -1,0 +1,20 @@
+[
+    {
+        "nombreCargo": "Analista de Sistemas en Formacion",
+        "nombreEmpresa": "Asesoftware S.A.S",
+        "descripcion": "",
+        "fechas": "18/07/2016 - 13/01/2017"
+    },
+    {
+        "nombreCargo": "Monitor APO 1",
+        "nombreEmpresa": "Universidad de los Andes",
+        "descripcion": "",
+        "fechas": ""
+    },
+    {
+        "nombreCargo": "Monitor CupiTaller",
+        "nombreEmpresa": "Universidad de los Andes",
+        "descripcion": "",
+        "fechas": ""
+    }
+]
