@@ -1,27 +1,32 @@
 [
     {
-        "nombreHabilidad": "Desarrollo en Java",
+        "nombreHabilidad": "Java",
         "nivelConocimiento": "Avanzado",
-        "tiempo":"4 años experiencia"
+        "tiempo":"4 años experiencia",
+        "categoria":"lenguaje-comp"
     },
     {
-        "nombreHabilidad": "Desarrollo en Android",
+        "nombreHabilidad": "Android",
         "nivelConocimiento": "Intermedio",
-        "tiempo":"6 meses experiencia"
+        "tiempo":"6 meses experiencia",
+        "categoria":"herramienta"
     },
     {
-        "nombreHabilidad": "Desarrollo web (HTML, CSS, JavaScript)",
+        "nombreHabilidad": "(HTML, CSS, JavaScript)",
         "nivelConocimiento": "Intermedio",
-        "tiempo":"1 año experiencia"
+        "tiempo":"1 año experiencia",
+        "categoria":"lenguaje-comp"
     },
     {
-        "nombreHabilidad": "Manejo base de datos (Oracle SQL, Microsoft SQL Server)",
+        "nombreHabilidad": "SQL",
         "nivelConocimiento": "Intermedio",
-        "tiempo":"1.5 años experiencia"
+        "tiempo":"1.5 años experiencia",
+        "categoria":"lenguaje-comp"
     },
     {
-        "nombreHabilidad": "Desarrollo .NET",
+        "nombreHabilidad": ".NET",
         "nivelConocimiento": "Básico",
-        "tiempo":"2 meses experiencia"
+        "tiempo":"2 meses experiencia",
+        "categoria":"herramienta"
     }
 ]

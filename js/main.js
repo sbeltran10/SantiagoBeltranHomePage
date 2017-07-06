@@ -1,25 +1,24 @@
+var sections = [
+    EXPERIENCIA,
+    HABILIDADES,
+    HOBBIES,
+    INTERESES,
+    PROYECTOS
+]
+
+var lastFocus;
+
 var main = function () {
 
-    //Asigna funciones a los botones principales
-    $("#interes-prof").on("click", function () {
-        $("#content-hobbies").slideUp(400);
-        $("#content-experiencia").slideUp(400);
-        $("#content-intereses").slideToggle(400);
-    });
+    loadIntereses();
+    loadExperiencia();
+    loadProyectos();
+    loadHabilidades();
+    loadHobbies();
 
-    $("#experiencia-habilidades").on("click", function () {
-        $("#content-hobbies").slideUp(400);
-        $("#content-intereses").slideUp(400);
-        $("#content-experiencia").slideToggle(400);
-    });
-
-    $("#hobbies").on("click", function () {
-        $("#content-intereses").slideUp(400);
-        $("#content-experiencia").slideUp(400);
-        $("#content-hobbies").slideToggle(400);
-    });
 
     //Se encarga de llenar el contenido de la sección de experiencia y habilidades
+    /*
     $.getJSON("datos/trabajos.json", function (json) {
         var trabajos = json;
 
@@ -121,9 +120,33 @@ var main = function () {
             divItem.append(divCol4);
         }
     });
+    */
 
 };
 $(document).ready(main);
+
+var currentSection = null;
+
+var hideLoad = function (section) {
+
+    if (currentSection) {
+        $("#content-" + currentSection).slideUp(400);
+        $("#" + currentSection + "-but").removeClass("btn-categories-current");
+    }
+
+    currentSection = (currentSection === section ? null : section);
+    
+    if (currentSection) {
+        $("#content-" + section).slideToggle(400);
+        $("#" + section + "-but").addClass("btn-categories-current");
+    }
+    
+
+}
+
+var changeCurrentSection = function (section) {
+
+}
 
 
 

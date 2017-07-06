@@ -6,7 +6,7 @@
 
 body,
 html {
-    background-color: #131739;
+    background-color: rgb(10,10,10);
 }
 
 body,
@@ -20,11 +20,12 @@ h6 {
     font-weight: 700;
 }
 
+
 #main-image{
     border-radius: 50%;
     margin:5em;
-    max-height: 20em;
-    max-width: 20em;
+    max-height: 24em;
+    max-width: 24em;
 }
 
 .intro-header {
@@ -32,7 +33,7 @@ h6 {
     height: 80%;
     text-align: center;
     color: #f8f8f8;
-    background: url("BD_Void_2_Background.jpg") no-repeat center center;
+    background: url("lotsacodeblury.png") no-repeat center center;
     background-size: cover;
     
 }
@@ -59,15 +60,30 @@ h6 {
 
 .btn-categories{
     min-width: 14em;
-    background-color: #0B1226;
+    border: 0.1em solid white;
+    background-color: rgba(0,0,0,0.4);
     margin: 1em 1em 1em 1em;
 }
 
-.btn-categories:focus { 
+.btn-categories:hover { 
     outline-color: rgba(252, 255, 252, 1);
+    background-color: rgba(255,255,255,1);
+    color: rgb(10,10,10);
 }
 
-#content-intereses, #content-experiencia, #content-hobbies {
+.btn-categories:focus { 
+    border: 0.1em solid white;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+
+.btn-categories-current, .btn-categories-current:focus{
+    outline-color: rgba(252, 255, 252, 1);
+    background-color: rgba(255,255,255,1);
+    color: rgb(10,10,10);
+}
+
+#content-intereses, #content-experiencia, #content-hobbies, #content-habilidades, #content-proyectos {
     padding-bottom: 5em;
     padding-top: 5em;
     color: rgba(4, 15, 15, 1);
@@ -141,10 +157,11 @@ footer {
     height: 20%;
     text-align: center;
     padding-top: 2%;
+    margin-bottom: 2%
 }
 
 h4 {
-    color: #230173;
+    color: #004C00;
 }
 
 p {
@@ -165,8 +182,116 @@ p {
     vertical-align: bottom;
 }
 
+.first-contact{
+    margin-top: 4%
+}
 
+.contact{
+    color: rgba(255,255,255,0.5);
+    text-align: right;
+}
 
+.social-icon{
+    margin-top: 2%
+}
 
+/* Experiencia */
 
+.cuadro-experiencia{
+    margin: 3%;
+    padding: 9%;
+    border: 0.1em solid #004C00;
+    height: 25em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.experiencia-nombre,.experiencia-cargo,.experiencia-fechas{
+    text-align: center
+}
+
+.experiencia-cargo,.experiencia-fechas,.experiencia-descripcion{
+    margin-top: 1em
+}
+
+/* Proyectos */
+
+.img-proyecto{
+    max-height: 30em;
+    max-width: 30em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cuadro-proyectos{
+    margin: 3%;
+    padding-bottom: 5%;
+    border-bottom: 0.15em solid #004C00;
+}
+
+.cuadro-proyectos-last{
+    margin: 3%;
+}
+
+.proyectos-nombre, .proyectos-descripcion, .proyectos-tecnologias{
+    margin-top: 1em
+}
+
+.proy-repo{
+    padding-top: 1.5%;
+}
+
+/* Habilidades */
+
+.col-exp{
+    padding: 3%;
+}
+
+.circulo-habilidades{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 16em;
+    height: 16em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circulo-lenguaje-comp{
+    border: 0.3em solid #CC8400;
+}
+
+.circulo-herramienta{
+    border: 0.3em solid #751919;
+}
+
+.circulo-lenguaje-nat{
+    border: 0.3em solid #551A8B;
+}
+
+h5{
+    font-size: 1.5em;
+}
+
+.rowleyenda{
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.habilidad-nombre{
+    margin-top: 4em
+}
+
+.circulo-lenguaje-comp h5, .col-hab-lenguajes-comp{
+    color: #CC8400;
+}
+
+.circulo-herramienta h5, .col-hab-herramientas{
+    color: #751919;
+}
+
+.circulo-lenguaje-nat h5, .col-hab-lenguajes-nat{
+    color: #551A8B;
+}
+
+.col-hab-herramientas, .col-hab-lenguajes-nat{
+    padding-top: 1% 
+}
