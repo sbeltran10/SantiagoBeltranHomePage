@@ -23,9 +23,9 @@ var loadProyectos = function () {
             var colImagen;
 
             if (proyectos[i].link)
-                colImagen = $("<div class='col-md-5'><a href='" + proyectos[i].link + "' target='_blank'><img class='img-proyecto' src='img/proyectos/" + proyectos[i].imagen + "' alt='" + proyectos[i].nombreProyecto + "'></a></div>")
+                colImagen = $("<div class='col-md-5 col-imagen-proy'><a href='" + proyectos[i].link + "' target='_blank'><img class='img-proyecto' src='img/proyectos/" + proyectos[i].imagen + "' alt='" + proyectos[i].nombreProyecto + "'></a></div>")
             else
-                colImagen = $("<div class='col-md-5'><img class='img-proyecto' src='img/proyectos/" + proyectos[i].imagen + "' alt='" + proyectos[i].nombreProyecto + "'></div>")
+                colImagen = $("<div class='col-md-5 col-imagen-proy'><img class='img-proyecto' src='img/proyectos/" + proyectos[i].imagen + "' alt='" + proyectos[i].nombreProyecto + "'></div>")
 
             mainContainer.append(colImagen);
 

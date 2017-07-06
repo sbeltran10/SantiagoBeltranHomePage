@@ -21,7 +21,7 @@ var loadHabilidades = function () {
         var habilidades = json;
         for (var i = 0; i < habilidades.length; i++) {
 
-            var mainSquare = $("<div class='col-md-3 col-exp'></div>");
+            var mainSquare = $("<div class='col-md-3 col-hab'></div>");
             var mainContainer = $("<div class='col-md-12 circulo-habilidades circulo-" + habilidades[i].categoria + "'></div>");
             mainSquare.append(mainContainer);
 
