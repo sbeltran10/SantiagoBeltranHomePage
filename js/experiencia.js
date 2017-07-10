@@ -1,19 +1,22 @@
 var EXPERIENCIA = "experiencia";
 
-var loadExperiencia = function () {
+var initializeExperiencia = function () {
 
     $("#" + EXPERIENCIA + "-but").on("click", function (e) {
         hideLoad(EXPERIENCIA);
     });
+}
 
-    $.getJSON("datos/" + EXPERIENCIA + ".json", function (json) {
+var loadExperiencia = function () {
+
+    $.getJSON("datos/" + EXPERIENCIA + "-" + currentLang + ".json", function (json) {
 
         var trabajos = json;
         for (var i = 0; i < trabajos.length; i++) {
 
             var mainSquare = $("<div class='col-md-6 col-exp'></div>");
-            if(trabajos[i].nombreEmpresa)
-            var mainContainer =  $("<div class='col-md-12 cuadro-experiencia'></div>");
+            if (trabajos[i].nombreEmpresa)
+                var mainContainer = $("<div class='col-md-12 cuadro-experiencia'></div>");
             mainSquare.append(mainContainer);
 
             if ((i % 2) === 0) {
@@ -37,4 +40,8 @@ var loadExperiencia = function () {
 
         }
     })
+}
+
+var unloadExperiencia = function () {
+    $("#main-experiencia").empty();
 }

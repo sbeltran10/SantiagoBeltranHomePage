@@ -1,0 +1,20 @@
+[
+    {
+        "nombreCargo": "Analista de Sistemas Junior",
+        "nombreEmpresa": "Asesoftware S.A.S",
+        "descripcion": "Desarrolle una aplicación empresarial en JavaEE con un equipo de 12 ingenieros siguiendo un proceso completo de desarrollo de software (análisis, diseño, construcción y pruebas) usando el framework para metodologías agiles de Scrum. Además de esto, hice contribuciones a un proyecto de mantenimiento de una aplicación empresarial para un banco hecha en .NET.",
+        "fechas": "Julio 2016 – Enero 2017"
+    },
+    {
+        "nombreCargo": "Monitor de Clase: Algorítmica y Programación Orientada a Objetos 1, Algorítmica y Programación Orientada a Objetos 2",
+        "nombreEmpresa": "Universidad de los Andes",
+        "descripcion": "Brindaba asistencia a estudiantes con dudas acerca de programación en Java durante sesiones de laboratorio y me encargaba de calificar trabajos y exámenes prácticos.",
+        "fechas": "Agosto 2015 - Mayo 2016"
+    },
+    {
+        "nombreCargo": "Monitor CupiTaller",
+        "nombreEmpresa": "Universidad de los Andes",
+        "descripcion": "Brindaba monitorias personalizadas a estudiantes de cualquier sección de los cursos básicos de algorítmica y programación, estos estudiantes usualmente se encontraban en riesgo o eran aconsejados por los profesores de asistir al Cupitaller ya que detectaban dificultades en ellos.",
+        "fechas": "Febrero 2015 - Mayo 2015"
+    }
+]

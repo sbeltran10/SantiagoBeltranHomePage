@@ -1,0 +1,134 @@
+[
+    {
+        "nombreHabilidad": "Java",
+        "nivelConocimiento": "Advanced",
+        "tiempo": "",
+        "categoria": "lenguaje-comp"
+    },
+    {
+        "nombreHabilidad": "(HTML, CSS, Javascript)",
+        "nivelConocimiento": "Advanced",
+        "tiempo": "",
+        "categoria": "lenguaje-comp"
+    },
+    {
+        "nombreHabilidad": "SQL",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "lenguaje-comp"
+    },
+    {
+        "nombreHabilidad": "C#",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "lenguaje-comp"
+    },
+    {
+        "nombreHabilidad": "Python",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "lenguaje-comp"
+    },
+    {
+        "nombreHabilidad": "Ruby",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "lenguaje-comp"
+    },
+    {
+        "nombreHabilidad": "Git",
+        "nivelConocimiento": "Advanced",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Node.js",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "JavaEE",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Oracle SQL",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "SQL Server",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Android Framework",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Meteor.js",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "MongoDB",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Firebase",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Scrum",
+        "nivelConocimiento": "Intermediate",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Angular.js",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Amazon Web Services",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Unity",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Heroku",
+        "nivelConocimiento": "Basic",
+        "tiempo": "",
+        "categoria": "herramienta"
+    },
+    {
+        "nombreHabilidad": "Spanish",
+        "nivelConocimiento": "Native",
+        "tiempo": "",
+        "categoria": "lenguaje-nat"
+    },
+    {
+        "nombreHabilidad": "English",
+        "nivelConocimiento": "90% (writting, reading, listening); 70% (speaking)",
+        "tiempo": "",
+        "categoria": "lenguaje-nat"
+    }
+]

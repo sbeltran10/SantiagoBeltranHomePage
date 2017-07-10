@@ -1,0 +1,17 @@
+{
+    "descripcion":"I have experience and interest in building web, mobile and business applications. Good at teamwork, working under pressure and learning new skills. I would like to get professionally involved with the following areas / topics.",
+    "intereses": [
+        {
+            "nombre": "Web development",
+            "descripcion": "What I like most about this type of development is the diversity of technologies and approaches that exist for building applications of this type and the infinite possibilities of building impactful applications."
+        },
+        {
+            "nombre": "Mobile development",
+            "descripcion": "Nowadays is hard to find people that don’t use mobile devices. This fact combined with the possibility of building applications that can change people’s lives make this type of development of great interest to me."
+        },
+        {
+            "nombre": "Astronomy",
+            "descripcion": "Big astronomical discoveries are often accompanied by technological advances and knowledge that helps us better understand the nature of the universe. With these one can see the importance astronomy has for mankind’s future. For this reason, I would like to work in something related to this topic."
+        }
+    ]
+}

@@ -1,12 +1,16 @@
 var PROYECTOS = "proyectos";
 
-var loadProyectos = function () {
+var initializeProyectos = function () {
 
     $("#" + PROYECTOS + "-but").on("click", function () {
         hideLoad(PROYECTOS)
     });
 
-    $.getJSON("datos/" + PROYECTOS + ".json", function (json) {
+}
+
+var loadProyectos = function () {
+
+    $.getJSON("datos/" + PROYECTOS + "-" + currentLang + ".json", function (json) {
 
         var proyectos = json;
         for (var i = 0; i < proyectos.length; i++) {
@@ -38,7 +42,11 @@ var loadProyectos = function () {
             var rowDescripcion = $("<div class ='row proyectos-descripcion'><p class='p-justify'>" + proyectos[i].descripcion + "</p></div>");;
             colContent.append(rowDescripcion);
 
-            var rowTecnologias = $("<div class ='row proyectos-tecnologias'>Construido con " + proyectos[i].tecnologias + "</div>");;
+            var rowTecnologias;
+            if (currentLang === "en")
+                rowTecnologias = $("<div class ='row proyectos-tecnologias'>Built with " + proyectos[i].tecnologias + "</div>");
+            else
+                rowTecnologias = $("<div class ='row proyectos-tecnologias'>Construido con " + proyectos[i].tecnologias + "</div>");
             colContent.append(rowTecnologias);
 
             if (proyectos[i].repo) {
@@ -50,4 +58,8 @@ var loadProyectos = function () {
 
         }
     });
+}
+
+var unloadProyectos = function () {
+    $("#main-proyectos").empty();
 }

@@ -1,0 +1,42 @@
+[
+    {
+        "nombreProyecto": "CollabIDE",
+        "descripcion": "Integrated development environment in the cloud that lets development teams collaborate on a software project.",
+        "tecnologias": "HTML, CSS, JavaScript, Node.js and Firebase",
+        "imagen": "collabide.png",
+        "repo": "https://github.com/sbeltran10/InvestigacionTesis",
+        "link": "https://collabide.herokuapp.com/"
+    },
+    {
+        "nombreProyecto": "Pupper",
+        "descripcion": "Android application that lets dog owners find dog walkers to schedule walks for a future date. Dog owners can also view a complete history of the walks each of their dogs has taken. We are currently working on the project.",
+        "tecnologias": "Java, Android Framework, JavaScript, Node.js and MongoDB",
+        "imagen": "pup.png",
+        "repo": "https://gitlab.com/ISIS3510_201710_Pupper",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "Integral Professional Development Manager",
+        "descripcion": "Business application built in Asesoftware S.A.S that lets employees track their professional careers, their resumes and degrees or certifications.",
+        "tecnologias": "JavaEE, Java Server Faces and SQL Oracle",
+        "imagen": "ipdm.png",
+        "repo": "",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "Outfit-Chooser",
+        "descripcion": "Web application that lets users register garments that they own to build outfits for separate occasions. The app also lets users combine garments from different providers to test new outfits.",
+        "tecnologias": "HTML, CSS, JavaScript, Meteor.js, React.js and MongoDB",
+        "imagen": "outfitchooser.png",
+        "repo": "https://github.com/sbeltran10/proyecto-final-web",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "Transportation System TBC",
+        "descripcion": "Web application that lets employees monitor the current position of various transport vehicles.",
+        "tecnologias": "JavaEE, Play!, HTML, CSS, JavaScript, Angular and PostgreSQL",
+        "imagen": "TBC.png",
+        "repo": "https://github.com/ISIS2503-2015-02/Grupo-01",
+        "link": ""
+    }
+]

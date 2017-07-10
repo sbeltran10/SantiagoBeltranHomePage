@@ -1,0 +1,42 @@
+[
+    {
+        "nombreProyecto": "CollabIDE",
+        "descripcion": "Ambiente integrado de desarrollo en la nube que facilita el desarrollo colaborativo alrededor de un proyecto de software.",
+        "tecnologias": "HTML, CSS, JavaScript, Node.js y Firebase",
+        "imagen": "collabide.png",
+        "repo": "https://github.com/sbeltran10/InvestigacionTesis",
+        "link": "https://collabide.herokuapp.com/"
+    },
+    {
+        "nombreProyecto": "Pupper",
+        "descripcion": "Aplicación móvil para Android que les permite a dueños de perros encontrar paseadores y agendar paseos para alguna fecha y hora especifica. Además de esto, los dueños pueden ver el historial de paseos de cada uno de sus perros. Actualmente seguimos trabajando en el proyecto.",
+        "tecnologias": "Java, Android Framework, JavaScript, Node.js y MongoDB",
+        "imagen": "pup.png",
+        "repo": "https://gitlab.com/ISIS3510_201710_Pupper",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "Gestor Integral de Desarrollo Profesional",
+        "descripcion": "Aplicación empresarial hecha en Asesoftware S.A.S que le permite a los empleados de la empresa hacer un seguimiento de sus carreras profesionales, sus hojas de vida y títulos o certificaciones.",
+        "tecnologias": "JavaEE, Java Server Faces y SQL Oracle",
+        "imagen": "gidp.png",
+        "repo": "",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "Outfit-Chooser",
+        "descripcion": "Aplicación web que le permite a los usuarios, registrar prendas de vestir que tengan actualmente y luego armar conjuntos para diferentes ocasiones, también permite a los usuarios probar como se vería alguna prenda de algún proveedor.",
+        "tecnologias": "HTML, CSS, JavaScript, Meteor.js, React.js y MongoDB",
+        "imagen": "outfitchooser.png",
+        "repo": "https://github.com/sbeltran10/proyecto-final-web",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "Sistema de transporte TBC",
+        "descripcion": "Aplicación web que permite monitorear la posición actual de distintos medios de transporte pertenecientes a una empresa.",
+        "tecnologias": "JavaEE, Play!, HTML, CSS, JavaScript, Angular y PostgreSQL",
+        "imagen": "TBC.png",
+        "repo": "https://github.com/ISIS2503-2015-02/Grupo-01",
+        "link": ""
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "nombreCargo": "Junior Systems Analyst",
+        "nombreEmpresa": "Asesoftware S.A.S",
+        "descripcion": "I developed a business application in JavaEE with a group of 12 developers following a complete development process (analysis, design, construction and testing). The development was done using Scrum’s agile framework. I also made contributions to a maintenance project of a business application built on .NET.",
+        "fechas": "July 2016 - January 2017"
+    },
+    {
+        "nombreCargo": "Class Monitor: Algorithmic and Object Oriented Programming 1, Algorithmic and Object Oriented Programming 2",
+        "nombreEmpresa": "Universidad de los Andes",
+        "descripcion": "I provided aid to students during practical Java programming sessions and I also graded workshops and exams.",
+        "fechas": "August 2015 - May 2016"
+    },
+    {
+        "nombreCargo": "CupiTaller Monitor",
+        "nombreEmpresa": "Universidad de los Andes",
+        "descripcion": "I provided personal classes to students enrolled in any of the basic programming and algorithmic courses. These students were usually at risk of failing the course or were advised by teachers to go to Cupitaller.",
+        "fechas": "February 2015 - May 2015"
+    }
+]

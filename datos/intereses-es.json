@@ -1,0 +1,17 @@
+{
+    "descripcion":"Tengo experiencia e interés en la construcción de aplicaciones web, móviles y empresariales. Soy bueno trabajando en equipo, trabajando bajo presión y aprendiendo nuevas tecnologías. Me gustaría involucrarme profesionalmente con las siguientes áreas / temas.",
+    "intereses": [
+        {
+            "nombre": "Desarrollo de aplicaciones web",
+            "descripcion": "Lo que más me gusta de este tipo de desarrollo es la diversidad de tecnologías y enfoques que existen para hacer aplicaciones de este tipo y las infinitas posibilidades que hay para hacer aplicaciones de impacto."
+        },
+        {
+            "nombre": "Desarrollo de aplicaciones móviles",
+            "descripcion": "Hoy en día es difícil encontrar personas que no usen dispositivos móviles, este hecho combinado con la posibilidad de hacer aplicaciones que puedan cambiar la vida de las personas hace que este tipo de desarrollo sea de gran interés para mí."
+        },
+        {
+            "nombre": "Astronomía",
+            "descripcion": "Grandes descubrimientos astronómicos son normalmente acompañados de avances tecnológicos y de conocimiento que nos ayuda a entender mejor la naturaleza del universo como tal. Con esto se puede ver que la astronomía tiene una enorme importancia para el futuro de la humanidad, por esta razón me gustaría trabajar en algo relacionado a este tema."
+        }
+    ]
+}
