@@ -282,7 +282,7 @@ h5{
     margin-top: 2em
 }
 
-.circulo-lenguaje-comp h5, .col-hab-lenguajes-comp{
+.circulo-lenguaje-comp h5, .col-hab-lenguajes-comp1, .col-hab-lenguajes-comp2{
     color: #CC8400;
 }
 
@@ -294,7 +294,7 @@ h5{
     color: #1919A3;
 }
 
-.col-hab-herramientas, .col-hab-lenguajes-nat{
+.col-hab-herramientas, .col-hab-lenguajes-nat, .col-hab-lenguajes-comp1{
     padding-top: 1% 
 }
 

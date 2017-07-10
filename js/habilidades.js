@@ -1,30 +1,34 @@
 var HABILIDADES = "habilidades";
 
-var initializeHabilidades = function(){
+var initializeHabilidades = function () {
     $("#" + HABILIDADES + "-but").on("click", function () { hideLoad(HABILIDADES) });
 }
 
 var loadHabilidades = function () {
 
 
-    $.getJSON("datos/" + HABILIDADES  +"-"+currentLang+".json", function (json) {
+    $.getJSON("datos/" + HABILIDADES + "-" + currentLang + ".json", function (json) {
 
         var leyend = $("<div class='row row-eq-height rowleyenda'></div>");
         $("#main-habilidades").append(leyend);
 
-        var lblLeyend1 = (currentLang==='en'?'Specific languages (programming, markup, query, etc)':'Lenguajes específicos (programacion, marcado, consulta, etc)')
+        var lblLeyend1 = (currentLang === 'en' ? 'Specific languages (programming, markup, query, etc)' : 'Lenguajes específicos (programacion, marcado, consulta, etc)')
 
-        var lblLeyend2 = (currentLang==='en'?'Tools, platforms, frameworks, etc':'Herramientas, plataformas, frameworks, etc')
+        var lblLeyend2 = (currentLang === 'en' ? 'Tools, platforms, frameworks, etc' : 'Herramientas, plataformas, frameworks, etc')
 
-        var lblLeyend3 = (currentLang==='en'?'Natural languages':'Lenguajes naturales')
+        var lblLeyend3 = (currentLang === 'en' ? 'Natural languages' : 'Lenguajes naturales')
 
-        var colLeyend1 = $("<div class='col-md-4 col-hab-lenguajes-comp'>"+lblLeyend1+"</div>");
+        var colLeyend1;
+        if (currentLang === 'en')
+            colLeyend1 = $("<div class='col-md-4 col-hab-lenguajes-comp1'>" + lblLeyend1 + "</div>");
+        else
+            colLeyend1 = $("<div class='col-md-4 col-hab-lenguajes-comp2'>" + lblLeyend1 + "</div>");
         leyend.append(colLeyend1);
 
-        var colLeyend2 = $("<div class='col-md-4 col-hab-herramientas'>"+lblLeyend2+"</div>");
+        var colLeyend2 = $("<div class='col-md-4 col-hab-herramientas'>" + lblLeyend2 + "</div>");
         leyend.append(colLeyend2);
 
-        var colLeyend3 = $("<div class='col-md-4 col-hab-lenguajes-nat'>"+lblLeyend3+"</div>");
+        var colLeyend3 = $("<div class='col-md-4 col-hab-lenguajes-nat'>" + lblLeyend3 + "</div>");
         leyend.append(colLeyend3);
 
         var habilidades = json;
@@ -55,6 +59,6 @@ var loadHabilidades = function () {
     });
 }
 
-var unloadHabilidades = function(){
+var unloadHabilidades = function () {
     $("#main-habilidades").empty();
 }
