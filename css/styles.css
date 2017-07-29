@@ -67,8 +67,9 @@ p {
 #main-image{
     border-radius: 50%;
     margin:5em;
-    max-height: 20em;
-    max-width: 20em;
+    height: 20em;
+    width: 20em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .intro-header {
@@ -230,7 +231,7 @@ padding-left: 2em;
 }
 
 .cuadro-proyectos-last{
-    margin: 3%;
+    margin: 0 3% 3% 3%;
 }
 
 .proyectos-nombre, .proyectos-descripcion, .proyectos-tecnologias{
