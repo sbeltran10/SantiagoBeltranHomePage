@@ -1,8 +1,9 @@
 app.directive('headerInfo', function () {
     return {
         restrict: 'AE',
-        scope: {},
+        scope: true,
         templateUrl: 'views/headerInfo.html',
-        replace: true
+        replace: true,
+        controller: 'HeaderController'
     };
 });

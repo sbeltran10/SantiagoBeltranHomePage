@@ -1,8 +1,9 @@
 app.directive('footerInfo', function () {
     return {
         restrict: 'AE',
-        scope: {},
+        scope: true,
         templateUrl: 'views/footerInfo.html',
-        replace: true
+        replace: true,
+        controller: 'FooterController'
     };
 });
