@@ -3,7 +3,6 @@ app.directive('headerInfo', function () {
         restrict: 'AE',
         scope: true,
         templateUrl: 'views/headerInfo.html',
-        replace: true,
         controller: 'HeaderController'
     };
 });

@@ -3,7 +3,6 @@ app.directive('footerInfo', function () {
         restrict: 'AE',
         scope: true,
         templateUrl: 'views/footerInfo.html',
-        replace: true,
         controller: 'FooterController'
     };
 });

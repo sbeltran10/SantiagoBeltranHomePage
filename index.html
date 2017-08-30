@@ -18,17 +18,38 @@
     <script src="js/vendor/jquery-3.2.1.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/angular.min.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body ng-app="personalPage">
-    <header-info></header-info>
+    <div>
+        <header-info></header-info>
+    </div>
 
-    <div ng-include="mainInfo" ng-controller="InfoController"></div>
+    <div ng-controller="InfoController">
+        <ng-include src="mainInfo"></ng-include>    
+    </div>
 
     <footer>
         <footer-info></footer-info>
     </footer>
 
-    <script src="js/main.js"></script>
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/headerController.js"></script>
+    <script src="js/controllers/footerController.js"></script>
+    <script src="js/controllers/infoController.js"></script>
+
+    <!-- Directives -->
+    <script src="js/directives/footerInfo.js"></script>
+    <script src="js/directives/headerInfo.js"></script>
+
+    <!-- Services -->
+
+
+
 </body>
+
 </html>
