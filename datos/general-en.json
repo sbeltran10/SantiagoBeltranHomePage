@@ -1,11 +1,7 @@
 {
     "descripcionPrincipal":"Systems and Computer Engineering Student",
     "lenguaje":"Language",
-    "seccionPerfil":"Profile",
-    "seccionExperiencia":"Work Experience",
-    "seccionProyectos":"Proyects",
-    "seccionHabilidades":"Skills",
-    "seccionHobbies":"Hobbies",
+    "secciones":["Profile", "Work Experience","Projects","Skills","Hobbies"],
     "headingDeportes":"Sports",
     "headingVideojuegos":"Videogames",
     "contacto":"Contact:"

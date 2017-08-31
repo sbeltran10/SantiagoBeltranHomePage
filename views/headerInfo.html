@@ -1,1 +1,19 @@
-<div></div>
+<div class="intro-header" ng-controller="HeaderController">
+    <img src="img/Santiago.png" id="main-image" alt="Foto de Santiago Beltran" />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>Santiago Beltrán Caicedo</h1>
+                    <div id ="descripcion-main">{{headerMainInfo.descripcionPrincipal}}</div>
+                    <hr class="intro-divider">
+                    <ul class="list-inline">
+                        <li ng-repeat="seccion in headerMainInfo.secciones">
+                            <button  ng-click="changeInfoShown(seccion)" class="btn btn-lg btn-categories">{{seccion}}</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
