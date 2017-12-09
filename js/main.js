@@ -6,7 +6,7 @@ var sections = [
     PROYECTOS
 ]
 
-var currentLang = "es";
+var currentLang = "en";
 
 var main = function () {
 

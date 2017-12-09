@@ -43,7 +43,7 @@
     },
     {
         "nombreHabilidad": "Node.js",
-        "nivelConocimiento": "Intermediate",
+        "nivelConocimiento": "Advanced",
         "tiempo": "",
         "categoria": "herramienta"
     },
@@ -103,7 +103,7 @@
     },
     {
         "nombreHabilidad": "Amazon Web Services",
-        "nivelConocimiento": "Basic",
+        "nivelConocimiento": "Intermediate",
         "tiempo": "",
         "categoria": "herramienta"
     },

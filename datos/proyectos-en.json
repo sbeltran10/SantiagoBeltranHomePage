@@ -1,5 +1,21 @@
 [
     {
+        "nombreProyecto": "WalkingRoutes",
+        "descripcion": "Integrated development environment in the cloud that lets development teams collaborate on a software project.",
+        "tecnologias": "Node.js, ReactJs, AWS Gateway, AWS DynamoDB, AWS S3 and AWS Lambda",
+        "imagen": "walkingRoutes.png",
+        "repo": "",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "GERSAFEII",
+        "descripcion": "Integrated development environment in the cloud that lets development teams collaborate on a software project.",
+        "tecnologias": "AngularJS, JavaEE, Oracle SQL and Apache Camel",
+        "imagen": "gersafe.png",
+        "repo": "",
+        "link": ""
+    },
+    {
         "nombreProyecto": "CollabIDE",
         "descripcion": "Integrated development environment in the cloud that lets development teams collaborate on a software project.",
         "tecnologias": "HTML, CSS, JavaScript, Node.js and Firebase",
