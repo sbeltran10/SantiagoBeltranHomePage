@@ -1,5 +1,21 @@
 [
     {
+        "nombreProyecto": "WalkingRoutes",
+        "descripcion": "Aplicación web para construir rutas turísticas en cualquier ciudad del mundo. Soporta múltiples lenguajes y está integrada con Amazon Web services.",
+        "tecnologias": "Node.js, ReactJs, AWS Gateway, AWS DynamoDB, AWS S3 and AWS Lambda",
+        "imagen": "walkingRoutes.png",
+        "repo": "",
+        "link": ""
+    },
+    {
+        "nombreProyecto": "GERSAFEII",
+        "descripcion": "Aplicación web y bus de servicios para agencia marítima que les permite llevar a cabo sus operaciones diarias.",
+        "tecnologias": "AngularJS, JavaEE, Oracle SQL and Apache Camel",
+        "imagen": "gersafe.png",
+        "repo": "",
+        "link": ""
+    },
+    {
         "nombreProyecto": "CollabIDE",
         "descripcion": "Ambiente integrado de desarrollo en la nube que facilita el desarrollo colaborativo alrededor de un proyecto de software.",
         "tecnologias": "HTML, CSS, JavaScript, Node.js y Firebase",

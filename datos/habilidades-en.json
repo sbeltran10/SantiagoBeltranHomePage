@@ -24,16 +24,10 @@
         "categoria": "lenguaje-comp"
     },
     {
-        "nombreHabilidad": "Python",
-        "nivelConocimiento": "Basic",
+        "nombreHabilidad": "React",
+        "nivelConocimiento": "Intermediate",
         "tiempo": "",
-        "categoria": "lenguaje-comp"
-    },
-    {
-        "nombreHabilidad": "Ruby",
-        "nivelConocimiento": "Basic",
-        "tiempo": "",
-        "categoria": "lenguaje-comp"
+        "categoria": "herramienta"
     },
     {
         "nombreHabilidad": "Git",
@@ -73,7 +67,7 @@
     },
     {
         "nombreHabilidad": "Meteor.js",
-        "nivelConocimiento": "Intermediate",
+        "nivelConocimiento": "Basic",
         "tiempo": "",
         "categoria": "herramienta"
     },
@@ -96,7 +90,7 @@
         "categoria": "herramienta"
     },
     {
-        "nombreHabilidad": "Angular.js",
+        "nombreHabilidad": "AngularJs",
         "nivelConocimiento": "Basic",
         "tiempo": "",
         "categoria": "herramienta"

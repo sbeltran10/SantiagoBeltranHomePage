@@ -24,16 +24,10 @@
         "categoria": "lenguaje-comp"
     },
     {
-        "nombreHabilidad": "Python",
-        "nivelConocimiento": "Básico",
+        "nombreHabilidad": "React",
+        "nivelConocimiento": "Intermedio",
         "tiempo": "",
-        "categoria": "lenguaje-comp"
-    },
-    {
-        "nombreHabilidad": "Ruby",
-        "nivelConocimiento": "Básico",
-        "tiempo": "",
-        "categoria": "lenguaje-comp"
+        "categoria": "herramienta"
     },
     {
         "nombreHabilidad": "Git",
@@ -96,14 +90,14 @@
         "categoria": "herramienta"
     },
     {
-        "nombreHabilidad": "Angular.js",
+        "nombreHabilidad": "AngularJs",
         "nivelConocimiento": "Básico",
         "tiempo": "",
         "categoria": "herramienta"
     },
     {
         "nombreHabilidad": "Amazon Web Services",
-        "nivelConocimiento": "Básico",
+        "nivelConocimiento": "Intermedio",
         "tiempo": "",
         "categoria": "herramienta"
     },
@@ -126,7 +120,7 @@
         "categoria": "lenguaje-nat"
     },
     {
-        "nombreHabilidad": "Ingles",
+        "nombreHabilidad": "Inglés",
         "nivelConocimiento": "90% (escritura, lectura, escucha); 70% (habla)",
         "tiempo": "",
         "categoria": "lenguaje-nat"

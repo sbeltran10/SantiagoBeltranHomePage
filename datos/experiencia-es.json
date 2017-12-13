@@ -1,5 +1,17 @@
 [
     {
+        "nombreCargo": "Desarrollador Full Stack",
+        "nombreEmpresa": "Freelancer",
+        "descripcion": "Development in various small and big projects that use mostly web technologies.",
+        "fechas": "October 2017 - Present"
+    },
+    {
+        "nombreCargo": "Desarrollador de Software",
+        "nombreEmpresa": "Bcom",
+        "descripcion": "Development of a web application and enterprise service bus for a shipping company that lets them carry out their daily operation. Investigation of various technologies to land contracts with new clients.",
+        "fechas": "September 2017 - Present"
+    },
+    {
         "nombreCargo": "Analista de Sistemas Junior",
         "nombreEmpresa": "Asesoftware S.A.S",
         "descripcion": "Desarrolle una aplicación empresarial en JavaEE con un equipo de 12 ingenieros siguiendo un proceso completo de desarrollo de software (análisis, diseño, construcción y pruebas) usando el framework para metodologías agiles de Scrum. Además de esto, hice contribuciones a un proyecto de mantenimiento de una aplicación empresarial para un banco hecha en .NET.",

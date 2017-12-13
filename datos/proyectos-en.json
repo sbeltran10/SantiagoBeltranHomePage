@@ -1,7 +1,7 @@
 [
     {
         "nombreProyecto": "WalkingRoutes",
-        "descripcion": "Integrated development environment in the cloud that lets development teams collaborate on a software project.",
+        "descripcion": "Web application for building touristic routes in any city. Supports multiple languages and it's integrated with Amazon Web Services.",
         "tecnologias": "Node.js, ReactJs, AWS Gateway, AWS DynamoDB, AWS S3 and AWS Lambda",
         "imagen": "walkingRoutes.png",
         "repo": "",
@@ -9,7 +9,7 @@
     },
     {
         "nombreProyecto": "GERSAFEII",
-        "descripcion": "Integrated development environment in the cloud that lets development teams collaborate on a software project.",
+        "descripcion": "Web application and Enterprise service bus for a shipping agency that lets them carry out their daily operation.",
         "tecnologias": "AngularJS, JavaEE, Oracle SQL and Apache Camel",
         "imagen": "gersafe.png",
         "repo": "",
